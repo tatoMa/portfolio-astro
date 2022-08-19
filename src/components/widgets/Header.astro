@@ -12,8 +12,8 @@ const {} = Astro.props;
     <div class="flex justify-between">
       <a class="flex items-center" href="/">
         <span
-          class="self-center ml-2 text-2xl font-extrabold text-gray-900 whitespace-nowrap dark:text-white"
-          >🚀 AstroWind
+          class="self-center ml-2 text-2xl font-extrabold text-gray-900 whitespace-nowrap dark:text-white dark:hover:text-gray-300"
+          ><span class="dark:text-pink-500 text-pink-500">T</span>ato Ma
         </span>
       </a>
       <div class="flex items-center md:hidden">
@@ -44,23 +44,37 @@ const {} = Astro.props;
       >
         <li>
           <a
-            class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-            href="#"
-            >Pages
+            class="hover:border-b text-lg font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/"
+            >Home
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a
-            class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            class="hover:border-b text-lg font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
             href="#"
             >Resources
           </a>
+        </li> -->
+        <li>
+          <a
+            class="hover:border-b text-lg font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/blog"
+            >Blog
+          </a>
         </li>
         <li>
           <a
-            class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-            href="/blog"
-            >Blog
+            class="hover:border-b text-lg font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/about"
+            >About
+          </a>
+        </li>
+        <li>
+          <a
+            class="hover:border-b text-lg font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/contact"
+            >Contact me
           </a>
         </li>
         <li class="md:hidden">
